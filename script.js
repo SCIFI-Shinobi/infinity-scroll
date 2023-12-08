@@ -18,13 +18,13 @@ function displayPhoto(){
 //    create <a> to link to unsplash
    const item = document.createElement('a');
    setAttributes(item,{
-    src:photo.links.html,
+    href:photo.links.html,
     target:'_blank'
    });
 //    create <img> for photo
     const img=document.createElement('img');
         setAttributes(img,{
-        href:photo.urls.regular,
+        src:photo.urls.regular,
         alt:photo.alt_description,
         title:photo.alt_description
     }); 

@@ -33,11 +33,11 @@ h1{
     transform: translate(-50%,-50%);
 }
 
-.img-container{
+.image-container{
     margin:10px 30%;
 }
 
-.img-container img{
+.image-container img{
     width: 100%;
     margin-top: 5px;
 }
@@ -46,7 +46,7 @@ h1{
     h1{
         font-size: 20px;
     }
-    .img-container{
+    .image-container{
         margin: 10px;
     }
 }
